@@ -10,7 +10,7 @@
     box-shadow: none;
 }
 
-.custom-img{
+.custom-img {
     width: 60%;
 }
 
@@ -29,7 +29,69 @@
 .navbar-nav .nav-link.active,
 .navbar-nav .show>.nav-link {
     color: #54524f;
-    font-weight: 500;
+    font-weight: bold;
     margin: 0 10px;
     letter-spacing: 2px;
 }
+
+/* banner section  */
+
+.banner-container {
+    background-image: url(/assets/banner_img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    position: relative;
+    z-index: 0;
+}
+
+.banner-container::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #2d3950;
+    opacity: 0.7;
+    z-index: -1;
+}
+
+.custom-banner {
+    min-height: 87vh;
+}
+
+.custom-banner h1 {
+    margin: 33px 0px 10px;
+    font-size: 88px;
+    color: #dacac4;
+    text-shadow: 7px -4px 9px black;
+}
+
+
+.custom-banner h4 {
+    /* text-align: center; */
+    font-weight: bold;
+    font-size: 32px;
+    font-style: italic;
+    color: #f0dada;
+}
+
+.custom-banner button {
+    /* text-align: center; */
+    border: none;
+    padding: 8px 30px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+
+.custom-banner p {
+    text-align: justify;
+    font-style: italic;
+    letter-spacing: 1px;
+    color: #dcd4d4bf;
+}
+
