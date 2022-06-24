@@ -1,0 +1,36 @@
+
+
+
+
+
+
+
+.custom-form-control {
+    background-color: #c3bfbc;
+    position: relative;
+}
+
+.custom-form-control:focus {
+    background-color: #c3bfbc;
+    border: none;
+    box-shadow: none;
+}
+
+.search-icon {
+    position: absolute;
+    left: 95%;
+    top: 50%;
+    transform: translate(-20%, -47%);
+}
+
+.search-icon i {
+    color: #68635f;
+    font-size: 20px;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .show>.nav-link {
+    color: #54524f;
+    font-weight: 500;
+    margin: 0 10px;
+}
